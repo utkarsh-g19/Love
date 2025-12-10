@@ -1,0 +1,69 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-psd/3d-valentines-day-celebration-background_23-2150099998.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    border: 10px solid white;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 110px;
+    width: 600px;
+    height: 300px;
+    transition: transform 1s;
+}
+.container:hover{
+    transform: scale(1.05);
+}
+h1{
+    border: 5px solid blanchedalmond;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: gray;
+    color: pink;
+    transition: transform 0.3s;
+}
+h1:hover{
+    transform: scale(1.05);
+}
+input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+input:hover{
+    transform: scale(1.05);
+}
+button{
+    padding: 10px;
+    border: 1px solid azure;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: palevioletred;
+}
+button:hover{
+    background: white;
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+#result{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 10px;
+ 
+    
+}
